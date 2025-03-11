@@ -1,0 +1,11 @@
+<suite name="flight-reservation">
+    <test name="passangers-count-1">
+<!-- <parameter name="noOfPassengers" value="1" />
+<parameter name="expectedPrice" value="$584 USD" /> -->
+        <parameter name="testDataPath" value="test-data/flight-reservation/passanger-1.json" />
+        <classes>
+            <class name="com.saimen.tests.flightreservation.FlightReservationTest">
+            </class>
+        </classes>
+    </test>
+</suite>

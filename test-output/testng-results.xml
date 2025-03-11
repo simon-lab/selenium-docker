@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-04T09:12:07 WIB" name="flight-reservation" finished-at="2025-03-04T09:12:15 WIB" duration-ms="8211">
+    <groups>
+    </groups>
+    <test started-at="2025-03-04T09:12:07 WIB" name="passangers-count-1" finished-at="2025-03-04T09:12:15 WIB" duration-ms="8211">
+      <class name="com.saimen.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:com.saimen.tests.flightreservation.FlightReservationTest@48e4374]" started-at="2025-03-04T09:12:07 WIB" name="setDriver" finished-at="2025-03-04T09:12:09 WIB" duration-ms="1783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.saimen.tests.flightreservation.FlightReservationTest@48e4374]" started-at="2025-03-04T09:12:09 WIB" name="setParameters" finished-at="2025-03-04T09:12:09 WIB" depends-on-methods="com.saimen.tests.AbstractTest.setDriver" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src\test\resources\test-data\flight-reservation\passanger-1.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistration()[pri:0, instance:com.saimen.tests.flightreservation.FlightReservationTest@48e4374]" started-at="2025-03-04T09:12:09 WIB" name="userRegistration" finished-at="2025-03-04T09:12:10 WIB" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.saimen.tests.flightreservation.FlightReservationTest@48e4374]" started-at="2025-03-04T09:12:10 WIB" name="registrationConfirmationTest" finished-at="2025-03-04T09:12:12 WIB" depends-on-methods="com.saimen.tests.flightreservation.FlightReservationTest.userRegistration" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightSearchTest()[pri:0, instance:com.saimen.tests.flightreservation.FlightReservationTest@48e4374]" started-at="2025-03-04T09:12:12 WIB" name="flightSearchTest" finished-at="2025-03-04T09:12:13 WIB" depends-on-methods="com.saimen.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="1656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:com.saimen.tests.flightreservation.FlightReservationTest@48e4374]" started-at="2025-03-04T09:12:13 WIB" name="flightsSelectionTest" finished-at="2025-03-04T09:12:14 WIB" depends-on-methods="com.saimen.tests.flightreservation.FlightReservationTest.flightSearchTest" duration-ms="1204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightsReservationConfirmationTest()[pri:0, instance:com.saimen.tests.flightreservation.FlightReservationTest@48e4374]" started-at="2025-03-04T09:12:14 WIB" name="flightsReservationConfirmationTest" finished-at="2025-03-04T09:12:15 WIB" depends-on-methods="com.saimen.tests.flightreservation.FlightReservationTest.flightsSelectionTest" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.saimen.tests.flightreservation.FlightReservationTest@48e4374]" started-at="2025-03-04T09:12:15 WIB" name="quitDriver" finished-at="2025-03-04T09:12:15 WIB" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.saimen.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passangers-count-1 -->
+  </suite> <!-- flight-reservation -->
+  <suite started-at="2025-03-04T09:12:15 WIB" name="vendor-portal" finished-at="2025-03-04T09:12:21 WIB" duration-ms="6045">
+    <groups>
+    </groups>
+    <test started-at="2025-03-04T09:12:15 WIB" name="user-john" finished-at="2025-03-04T09:12:20 WIB" duration-ms="4639">
+      <class name="com.saimen.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@50eac852]" started-at="2025-03-04T09:12:15 WIB" name="setDriver" finished-at="2025-03-04T09:12:16 WIB" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@50eac852]" started-at="2025-03-04T09:12:16 WIB" name="setPageObjects" finished-at="2025-03-04T09:12:16 WIB" depends-on-methods="com.saimen.tests.AbstractTest.setDriver" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src\test\resources\test-data\vendor-portal\john.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@50eac852]" started-at="2025-03-04T09:12:16 WIB" name="loginTest" finished-at="2025-03-04T09:12:17 WIB" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@50eac852]" started-at="2025-03-04T09:12:17 WIB" name="dashboardTest" finished-at="2025-03-04T09:12:19 WIB" depends-on-methods="com.saimen.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="1586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@50eac852]" started-at="2025-03-04T09:12:19 WIB" name="logoutTest" finished-at="2025-03-04T09:12:20 WIB" depends-on-methods="com.saimen.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@50eac852]" started-at="2025-03-04T09:12:20 WIB" name="quitDriver" finished-at="2025-03-04T09:12:20 WIB" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.saimen.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-john -->
+    <test started-at="2025-03-04T09:12:15 WIB" name="user-sam" finished-at="2025-03-04T09:12:21 WIB" duration-ms="5858">
+      <class name="com.saimen.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@7722c3c3]" started-at="2025-03-04T09:12:15 WIB" name="setDriver" finished-at="2025-03-04T09:12:16 WIB" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@7722c3c3]" started-at="2025-03-04T09:12:16 WIB" name="setPageObjects" finished-at="2025-03-04T09:12:16 WIB" depends-on-methods="com.saimen.tests.AbstractTest.setDriver" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src\test\resources\test-data\vendor-portal\sam.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@7722c3c3]" started-at="2025-03-04T09:12:16 WIB" name="loginTest" finished-at="2025-03-04T09:12:17 WIB" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@7722c3c3]" started-at="2025-03-04T09:12:17 WIB" name="dashboardTest" finished-at="2025-03-04T09:12:20 WIB" depends-on-methods="com.saimen.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="2483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@7722c3c3]" started-at="2025-03-04T09:12:20 WIB" name="logoutTest" finished-at="2025-03-04T09:12:21 WIB" depends-on-methods="com.saimen.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@7722c3c3]" started-at="2025-03-04T09:12:21 WIB" name="quitDriver" finished-at="2025-03-04T09:12:21 WIB" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.saimen.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-sam -->
+    <test started-at="2025-03-04T09:12:15 WIB" name="user-mike" finished-at="2025-03-04T09:12:21 WIB" duration-ms="6045">
+      <class name="com.saimen.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@243c4f91]" started-at="2025-03-04T09:12:15 WIB" name="setDriver" finished-at="2025-03-04T09:12:16 WIB" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@243c4f91]" started-at="2025-03-04T09:12:16 WIB" name="setPageObjects" finished-at="2025-03-04T09:12:16 WIB" depends-on-methods="com.saimen.tests.AbstractTest.setDriver" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src\test\resources\test-data\vendor-portal\mike.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@243c4f91]" started-at="2025-03-04T09:12:16 WIB" name="loginTest" finished-at="2025-03-04T09:12:17 WIB" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@243c4f91]" started-at="2025-03-04T09:12:17 WIB" name="dashboardTest" finished-at="2025-03-04T09:12:20 WIB" depends-on-methods="com.saimen.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="2641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@243c4f91]" started-at="2025-03-04T09:12:20 WIB" name="logoutTest" finished-at="2025-03-04T09:12:21 WIB" depends-on-methods="com.saimen.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.saimen.tests.vendorportal.VendorPortalTest@243c4f91]" started-at="2025-03-04T09:12:21 WIB" name="quitDriver" finished-at="2025-03-04T09:12:21 WIB" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.saimen.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-mike -->
+  </suite> <!-- vendor-portal -->
+</testng-results>

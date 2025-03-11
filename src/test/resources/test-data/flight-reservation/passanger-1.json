@@ -1,0 +1,11 @@
+{
+    "firstName": "raja",
+    "lastName": "simon",
+    "email": "rajasimon@gmail.com",
+    "password": "123",
+    "street": "cicadas",
+    "city": "bandung",
+    "zip": "40123",
+    "passengersCount": "1",
+    "expectedPrice": "$584 USD"
+  }

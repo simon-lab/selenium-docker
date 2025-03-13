@@ -28,7 +28,7 @@ do
       echo "**** HUB IS NOT READY WITHIN 30 SECONDS ****"
       exit 1
   fi
-  sleep 2
+  sleep 1
 done
 
 # At this point, selenium grid should be up!

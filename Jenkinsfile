@@ -24,8 +24,8 @@ pipeline{
             steps{
                 bat 'docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%'
                 bat "docker push saimen0/selenium:latest"
-                bat "docker tag saimen0/selenium:latest saimen0/selenium:${env.BUILD_NUMBER}"
-                bat "docker push saimen0/selenium:${env.BUILD_NUMBER}"
+                // bat "docker tag saimen0/selenium:latest saimen0/selenium:${env.BUILD_NUMBER}"
+                // bat "docker push saimen0/selenium:${env.BUILD_NUMBER}"
             }
         }
 

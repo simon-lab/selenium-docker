@@ -9,7 +9,7 @@ WORKDIR /home/selenium-docker
 #add the required files
 
 ADD target/docker-resources     /home/selenium-docker/
-ADD runner.sh                   runner.sh
+ADD runner.bat                   runner.bat
 
 #Environment Variables
 #BROWSER
@@ -18,4 +18,4 @@ ADD runner.sh                   runner.sh
 #THREAD_COUNT
 
 # Start the runner.sh
-ENTRYPOINT sh runner.sh
+ENTRYPOINT bat runner.bat

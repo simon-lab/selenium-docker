@@ -18,4 +18,4 @@ ADD runner.sh                   runner.sh
 #THREAD_COUNT
 
 # Start the runner.sh
-ENTRYPOINT bat runner.sh
+ENTRYPOINT sh runner.sh
